@@ -15,6 +15,7 @@
 
 # include <stdarg.h>
 # include <unistd.h>
+# include <stdint.h>
 
 int		g_len;
 int		ft_strlen(const char *str);

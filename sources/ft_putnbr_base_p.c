@@ -29,7 +29,7 @@ void	ft_putnbr_base_p(uint64_t nbr, char *base)
 	j = ft_strlen(base);
 	if (ft_check_base(base) == 1)
 	{
-		if (i < 0)
+		if (i)
 		{
 			i = i * -1;
 			i = ft_puthexa_neg_p(i);
